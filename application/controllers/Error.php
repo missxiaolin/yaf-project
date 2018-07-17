@@ -13,6 +13,7 @@ class ErrorController extends Yaf_Controller_Abstract
     public function errorAction($exception)
     {
         if ($exception instanceof CodeException){
+            api_response([1,2,3]);
         }
         //1. assign to view engine
         $this->getView()->assign("exception", $exception);

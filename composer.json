@@ -14,7 +14,9 @@
         }
     ],
     "autoload": {
-
+        "files": [
+            "application/library/helpers.php"
+        ]
     },
     "autoload-dev": {
         "psr-4": {
