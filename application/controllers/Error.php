@@ -12,8 +12,8 @@ class ErrorController extends Yaf_Controller_Abstract
     //从2.1开始, errorAction支持直接通过参数获取异常
     public function errorAction($exception)
     {
-        if ($exception instanceof CodeException){
-            api_response([1,2,3]);
+        if ($exception instanceof CodeException) {
+            api_error($exception->getCode(), $exception->getMessage());
         }
         //1. assign to view engine
         $this->getView()->assign("exception", $exception);
