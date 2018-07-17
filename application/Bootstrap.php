@@ -10,6 +10,17 @@
  */
 class Bootstrap extends Yaf_Bootstrap_Abstract
 {
+    /**
+     * 注册本地类前缀
+     *
+     * @param Yaf_Dispatcher $dispatcher
+     * @return void
+     */
+    public function _initLoader (Yaf_Dispatcher $dispatcher) {
+        Yaf_Loader::getInstance()->registerLocalNameSpace(
+            array('enums')
+        );
+    }
 
     public function _initConfig()
     {

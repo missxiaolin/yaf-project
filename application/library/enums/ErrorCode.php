@@ -2,7 +2,7 @@
 
 use xiaolin\Enum\Enum;
 
-class ErrorCode extends Enum
+class Enums_ErrorCode extends Enum
 {
 
     /**

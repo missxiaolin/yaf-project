@@ -3,7 +3,7 @@
 use Exception;
 use Throwable;
 
-class CodeException extends Exception
+class Enums_CodeException extends Exception
 {
     public $errorCode;
 
@@ -19,7 +19,7 @@ class CodeException extends Exception
     {
         $this->errorCode = $code;
         if ($message === null) {
-            $message = ErrorCode::getMessage($code);
+            $message = Enums_ErrorCode::getMessage($code);
         }
 
         if (!is_int($code)) {
