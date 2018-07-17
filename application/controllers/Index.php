@@ -16,6 +16,7 @@ class IndexController extends Yaf_Controller_Abstract
      */
     public function indexAction($name = "Stranger")
     {
+        throw new CodeException(ErrorCode::$ENUM_SYSTEM_ERROR);
         //1. fetch query
         $get = $this->getRequest()->getQuery("get", "default value");
 
