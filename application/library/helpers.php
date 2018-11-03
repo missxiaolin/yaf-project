@@ -1,5 +1,7 @@
 <?php
 
+use \xiaolin\Support\Str;
+
 if (!function_exists('api_response')) {
     /**
      * @param $data
@@ -48,5 +50,32 @@ if (!function_exists('api_error')) {
 
         $response->response();
         exit;
+    }
+}
+
+if (!function_exists('generate_unique_id')) {
+    /**
+     * 生成唯一ID
+     * @return string
+     */
+    function generate_unique_id($index = null)
+    {
+        $token = isset($index) ? $index . ':' : '';
+        return $token . str_replace(".", '', uniqid(str_random(20), true));
+    }
+}
+
+if (!function_exists('str_random')) {
+    /**
+     * Generate a more truly "random" alpha-numeric string.
+     *
+     * @param  int $length
+     * @return string
+     *
+     * @throws \RuntimeException
+     */
+    function str_random($length = 16)
+    {
+        return Str::random($length);
     }
 }
