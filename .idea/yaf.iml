@@ -67,6 +67,8 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/theseer/tokenizer" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/webmozart/assert" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/xiaolin/enum" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/xiaolin/support-arr" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/xiaolin/support-str" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/xiaolin/swoole-queue" />
     </content>
     <orderEntry type="inheritedJdk" />

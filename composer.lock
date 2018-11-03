@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "cf964c16a0cfdb8c8fab436127d1677a",
+    "content-hash": "95af9a9b08b66f620eb996129d405c47",
     "packages": [
         {
             "name": "phalcon/dd",
@@ -359,6 +359,84 @@
                 "xiaolin"
             ],
             "time": "2018-06-12T09:20:55+00:00"
+        },
+        {
+            "name": "xiaolin/support-arr",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/missxiaolin/support-arr.git",
+                "reference": "bd466dd458b48e8be3e3238202b638e5ecb2b397"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/missxiaolin/support-arr/zipball/bd466dd458b48e8be3e3238202b638e5ecb2b397",
+                "reference": "bd466dd458b48e8be3e3238202b638e5ecb2b397",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5.7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Xiao\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "This is support for array",
+            "time": "2017-12-16T06:18:55+00:00"
+        },
+        {
+            "name": "xiaolin/support-str",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/missxiaolin/support-str.git",
+                "reference": "0e1f75c7fc06bcfa42ffec23c3bf4339bf0916d5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/missxiaolin/support-str/zipball/0e1f75c7fc06bcfa42ffec23c3bf4339bf0916d5",
+                "reference": "0e1f75c7fc06bcfa42ffec23c3bf4339bf0916d5",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5.7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "xiaolin\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "This is support for string",
+            "time": "2017-11-21T07:41:10+00:00"
         },
         {
             "name": "xiaolin/swoole-queue",

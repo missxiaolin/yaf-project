@@ -28,7 +28,9 @@
         "xiaolin/enum": "^0.2.1",
         "xiaolin/swoole-queue": "^0.3.1",
         "symfony/console": "^4.1",
-        "ext-yaf": "^3.0"
+        "ext-yaf": "^3.0",
+        "xiaolin/support-arr": "^0.0.1",
+        "xiaolin/support-str": "^0.0.1"
     },
     "require-dev": {
         "phpunit/phpunit": ">=5.6",

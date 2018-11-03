@@ -67,6 +67,8 @@
       <path value="$PROJECT_DIR$/vendor/sebastian/phpdcd" />
       <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
       <path value="$PROJECT_DIR$/vendor/overtrue/phplint" />
+      <path value="$PROJECT_DIR$/vendor/xiaolin/support-arr" />
+      <path value="$PROJECT_DIR$/vendor/xiaolin/support-str" />
     </include_path>
   </component>
   <component name="PhpUnit">
