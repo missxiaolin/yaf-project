@@ -30,7 +30,8 @@
         "symfony/console": "^4.1",
         "ext-yaf": "^3.0",
         "xiaolin/support-arr": "^0.0.1",
-        "xiaolin/support-str": "^0.0.1"
+        "xiaolin/support-str": "^0.0.1",
+        "xiaolin/x-dingtalk": "^0.0.1"
     },
     "require-dev": {
         "phpunit/phpunit": ">=5.6",

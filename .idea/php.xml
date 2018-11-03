@@ -69,6 +69,14 @@
       <path value="$PROJECT_DIR$/vendor/overtrue/phplint" />
       <path value="$PROJECT_DIR$/vendor/xiaolin/support-arr" />
       <path value="$PROJECT_DIR$/vendor/xiaolin/support-str" />
+      <path value="$PROJECT_DIR$/vendor/limingxinleo/support-arr" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/limingxinleo/support-collection" />
+      <path value="$PROJECT_DIR$/vendor/pimple/pimple" />
+      <path value="$PROJECT_DIR$/vendor/xiaolin/x-dingtalk" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
     </include_path>
   </component>
   <component name="PhpUnit">
