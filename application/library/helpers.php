@@ -79,3 +79,29 @@ if (!function_exists('str_random')) {
         return Str::random($length);
     }
 }
+
+if (!function_exists('formatDate')) {
+    /**
+     * 格式化时间
+     * @author xl
+     * @param $gsdate integer
+     * @return string
+     */
+    function formatDate($gsdate)
+    {
+        return date('Y-m-d H:i:s', $gsdate);
+    }
+}
+
+if (!function_exists('preg_is_mobile')) {
+    /**
+     * @desc   判断字符串是否是手机号
+     * @author xl
+     * @param $mobile
+     * @return array|false|string
+     */
+    function preg_is_mobile($mobile)
+    {
+        return preg_match('/^1[345678]\d{9}$/', $mobile);
+    }
+}
