@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f5bd1d7-d402-4f03-a16a-82b28cd30105" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/application/library/helpers.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/library/helpers.php" afterDir="false" />
-    </list>
+    <list default="true" id="6f5bd1d7-d402-4f03-a16a-82b28cd30105" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,17 +13,7 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="helpers.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/library/helpers.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="85" column="17" selection-start-line="85" selection-start-column="17" selection-end-line="85" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -168,7 +156,7 @@
       <path value="$PROJECT_DIR$/vendor/psr/http-message" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="807" />
@@ -277,16 +265,15 @@
       <workItem from="1540017830243" duration="3405000" />
       <workItem from="1541043447079" duration="571000" />
       <workItem from="1541128929931" duration="427000" />
-      <workItem from="1541224727794" duration="1285000" />
+      <workItem from="1541224727794" duration="1338000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14075000" />
+    <option name="totallyTimeSpent" value="14128000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="807" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28183118" />
       <window_info anchor="bottom" id="TODO" order="6" />
