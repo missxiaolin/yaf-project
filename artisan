@@ -1,0 +1,20 @@
+#!/usr/bin/env php
+<?php
+
+/**
+ * Artisan command line tool.
+ *
+ * @author xiaolin
+ */
+
+require __DIR__.'/vendor/autoload.php';
+
+use Symfony\Component\Console\Application;
+use Application\Commands;
+
+define('BASE_PATH', __DIR__);
+
+$application = new Application();
+$application->add(new Commands\HelloCommand());
+$application->add(new Commands\TestCommand());
+$application->run();
