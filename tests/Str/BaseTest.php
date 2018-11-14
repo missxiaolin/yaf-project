@@ -17,5 +17,8 @@ use Tests\App\ErrorCodeNoPhalcon;
 
 class BaseTest extends TestCase
 {
-
+    public function testTrue()
+    {
+        $this->assertTrue(true);
+    }
 }
